@@ -1,0 +1,127 @@
+/* Required for full background image */
+
+.card {
+  width: 25%;
+}
+
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height: 100vh;
+}
+}
+
+.top-nav-collapse {
+background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+}
+
+h1 {
+letter-spacing: 8px;
+}
+
+h5 {
+letter-spacing: 3px;
+}
+
+.hr-light {
+border-top: 3px solid #fff;
+width: 80px;
+}
+
+.btn {
+  border: 2px solid white;
+}
+.inicio {
+  color: white;
+}
+.inicio:hover {
+  color: black;
+}
+
+
+.carta {
+  margin-top: 155px;
+  height: 15%;
+}
+.card-title {
+  color: #cc1924;
+}
+.carta h1 {
+  color: #cc1924;
+}
+.card-text:last-child {
+  text-align: right;
+}
+.carta-titulo {
+  text-align: center;
+}
+.jumbotron {
+  margin: 0;
+  margin-bottom: 0;
+}
+.card-deck-separacion {
+  margin-top: 10px;
+}
+.rrss_direccion {
+  margin-top: 40px;
+  text-align: center;
+}
+.rrss_direccion-separacion {
+  padding-top: 40px;
+}
+.rrss_direccion h2 {
+  color: #cc1924;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  padding: 10px;
+}
+a {
+  color: black;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.reserva {
+  text-align: center;
+  height: 900px;
+  margin-top: 25px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.jumbotron .reserva {
+  margin-bottom: 0;
+}
